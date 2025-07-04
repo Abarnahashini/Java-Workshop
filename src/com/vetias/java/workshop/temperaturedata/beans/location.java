@@ -74,7 +74,7 @@ public class location {
         ",Country:"+ country +
         ",City:" + city +
         ",Address:" + address +
-        ",PostalCode:"+ postalcode +"}";
+        ",Postalcode:"+ postalcode +"}";
 
     }
 
