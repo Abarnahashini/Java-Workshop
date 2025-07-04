@@ -65,6 +65,18 @@ public class location {
     public long getPostalCode(){
         return postalcode;
     }
+    @Override
+    public String toString(){
+        return "location{name:"+name+
+        ", Latitude:"+latitute +
+        ",Location:"+longitute +
+        ",Description:"+ description +
+        ",Country:"+ country +
+        ",City:" + city +
+        ",Address:" + address +
+        ",PostalCode:"+ postalcode +"}";
+
+    }
 
 
     
