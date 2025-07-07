@@ -9,6 +9,7 @@ public class location {
     private String city;
     private String address;
     private long postalcode;
+    private Buidling[] buidlings;
     public void setName(String aName){
         name=aName;
 
