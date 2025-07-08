@@ -1,9 +1,10 @@
 package com.vetias.java.workshop.basics;
 
 import java.util.Scanner;
+import javax.management.BadAttributeValueExpException;
 
 public class Namegenerator {
-    public static void main(String[]args){
+    public static void main(String[]args) throws BadAttributeValueExpException{
         Scanner sc= new Scanner(System.in);
         System.out.println("enter your name:");
         String name=sc.next();
@@ -20,7 +21,7 @@ public class Namegenerator {
             title="Ms. ";
         }
         else{
-            System.out.println("invalid gender");
+            throw new BadAttributeValueExpException("invalid gender");
         }
         StringBuilder finalname=new StringBuilder();
         finalname.append(title).append(name).append(", ").append(qualify);
