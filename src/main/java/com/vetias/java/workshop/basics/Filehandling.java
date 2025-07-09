@@ -1,6 +1,4 @@
 package com.vetias.java.workshop.basics;
-
-import java.awt.SystemTray;
 import java.io.File;
 
 public class Filehandling {
@@ -8,10 +6,6 @@ public class Filehandling {
         File file = new File("src");
         if(file.exists()){
             System.out.println("the file is exists"+file.getAbsolutePath());
-        }
-        else{
-            System.out.println("the file doesnt exits");
-        }
         if(file.isDirectory()){
             System.out.println("it is directory");
             File[] files= file.listFiles();
@@ -19,13 +13,18 @@ public class Filehandling {
                 System.out.println("fles in the directory");
                 for (File f:files){
                     System.out.println(f.getName());
-
                 }
-            else {
+            }else{
                     System.out.println("the directory is empty");
                 }
+            }else{
+                System.out.println("it is a file");
             }
-         }
-    }}
+
+        }else{
+            System.out.println("the file does not exist.");
+        }
+    }
+}
     
 
