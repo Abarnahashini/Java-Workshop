@@ -1,6 +1,6 @@
-package src.com.java.workshop.temperaturedata.beans;
+package com.java.workshop.temperaturedata.beans;
 
-public class acamedic extends Building {
+public class Acamedic extends Building {
     private boolean islibrary;
     private boolean isauditoriumavailable;
     

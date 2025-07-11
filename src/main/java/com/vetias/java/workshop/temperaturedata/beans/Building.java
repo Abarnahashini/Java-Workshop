@@ -1,4 +1,4 @@
-package src.com.java.workshop.temperaturedata.beans;
+package com.vetias.java.workshop.temperaturedata.beans;
 
 import java.time.LocalDateTime;
 

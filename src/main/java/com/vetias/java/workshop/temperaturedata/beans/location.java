@@ -1,4 +1,4 @@
-package src.com.java.workshop.temperaturedata.beans;
+package com.vetias.java.workshop.temperaturedata.beans;
 
 public class location {
     private String name;
@@ -9,7 +9,7 @@ public class location {
     private String city;
     private String address;
     private long postalcode;
-    private Buidling[] buidlings;
+    private Building[] buidlings;
     public void setName(String aName){
         name=aName;
 
